@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14e31378-a327-4da4-9e99-c2b1205f7ca3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/form_acceptance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="14e31378-a327-4da4-9e99-c2b1205f7ca3" name="Changes" comment="form acceptance page added">
+      <change afterPath="$PROJECT_DIR$/dbHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_sender.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babelFlask.py" beforeDir="false" afterPath="$PROJECT_DIR$/babelFlask.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/generic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/form_acceptance.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form_acceptance.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,17 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anony/PycharmProjects/webDev/templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/anony/PycharmProjects/webDev"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anony\PycharmProjects\webDev" />
       <recent name="C:\Users\anony\PycharmProjects\webDev\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -79,16 +77,19 @@
       <option name="presentableId" value="Default" />
       <updated>1712742333409</updated>
     </task>
+    <task id="LOCAL-00001" summary="form acceptance page added">
+      <option name="closed" value="true" />
+      <created>1712910372114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712910372114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/server.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="form acceptance page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="form acceptance page added" />
   </component>
 </project>

@@ -2,9 +2,10 @@ from flask import (Flask,
                    render_template,
                    send_from_directory,
                    url_for,
-                   request)
+                   request,
+                   redirect)
 import babelFlask
-
+import email_sender
 
 app = Flask(__name__)
 babel = babelFlask.BabelFlask(app)
@@ -25,7 +26,9 @@ def submit_form():
     if request.method == "POST":
         data = request.form.to_dict()
         print(data)
-        return "form submitted with data"
+        email_sender.EmailSender(data)
+        # return redirect("form_acceptance")
+        return render_template("form_acceptance.html", data=data)
     else:
         return "oops"
 
