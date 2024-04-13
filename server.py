@@ -5,6 +5,7 @@ from flask import (Flask,
                    request,
                    redirect)
 import babelFlask
+import dbHandler
 import email_sender
 
 app = Flask(__name__)
@@ -27,6 +28,7 @@ def submit_form():
         data = request.form.to_dict()
         print(data)
         email_sender.EmailSender(data)
+        dbHandler.DbHandler.write_to_file(data)
         # return redirect("form_acceptance")
         return render_template("form_acceptance.html", data=data)
     else:
