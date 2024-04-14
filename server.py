@@ -29,6 +29,7 @@ def submit_form():
         print(data)
         email_sender.EmailSender(data)
         dbHandler.DbHandler.write_to_file(data)
+        dbHandler.DbHandler.write_to_csv(data)
         # return redirect("form_acceptance")
         return render_template("form_acceptance.html", data=data)
     else:
